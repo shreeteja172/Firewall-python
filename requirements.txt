@@ -1,0 +1,19 @@
+# Requirements for GUI-Based Application Layer Firewall
+# =====================================================
+# 
+# Install all dependencies with:
+#   pip install -r requirements.txt
+#
+# Note: On Windows, you also need to install Npcap:
+#   Download from: https://npcap.com/
+#   During installation, enable "WinPcap API-compatible Mode"
+
+# GUI Framework
+# Tkinter is used (built into Python - no installation needed)
+
+# Packet Sniffing and Manipulation
+# Scapy is a powerful packet manipulation library
+scapy>=2.5.0
+
+# On Windows, scapy works best with Npcap
+# Npcap must be installed separately from https://npcap.com/
